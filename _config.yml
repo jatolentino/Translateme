@@ -19,4 +19,4 @@ email: "yourmail@mail.com" # This is my real email address. Please don't email m
 #sass:
 #    style: compressed
 
-exclude: [.scss, README.md, node_modules, gruntfile.js, package.json, css]
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
