@@ -3,3 +3,9 @@ url: "https://jatolentino.github.io" # the base hostname & protocol for your sit
 
 
 # Build settings
+deploy:
+  provider: pages
+  local-dir: dist
+  skip-cleanup: true
+  keep-history: true
+  target-branch: main
