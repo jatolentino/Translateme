@@ -1,11 +1,11 @@
-baseurl: "/Translateme" # the subpath of your site, e.g. /blog
-url: "https://jatolentino.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Basic options
+title: my title
+author: Jose
+email: myemail
+description: a site
+github_username: jatolentino
 
 # Build settings
-deploy:
-  provider: pages
-  local-dir: dist
-  skip-cleanup: true
-  keep-history: true
-  target-branch: main
+markdown: kramdown
+theme: minima
